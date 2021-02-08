@@ -1,9 +1,8 @@
-import { BehaviorSubject, from, Observable, of, Subscription } from 'rxjs'
-import { map, mergeMap, scan, shareReplay, startWith, switchMap, take, tap } from 'rxjs/operators'
+import { BehaviorSubject, Observable } from 'rxjs'
+import { map, mergeMap, scan, shareReplay, startWith, take, tap } from 'rxjs/operators'
 import {
   combineReducers,
   combineTriggers,
-  Event,
   Reducer,
   State,
   StateReducers,

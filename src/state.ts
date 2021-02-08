@@ -1,4 +1,4 @@
-import { Observable, of } from 'rxjs'
+import { of } from 'rxjs'
 import { mergeMap } from 'rxjs/operators'
 
 export interface State {
