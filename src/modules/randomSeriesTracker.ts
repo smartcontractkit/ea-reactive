@@ -1,6 +1,6 @@
-import { Reducer, Trigger, combineReducers } from '../state'
 import { random } from '../drivers'
 import { CMD_RAND_START, CMD_RAND_STOP } from '../drivers/random'
+import { combineReducers, Reducer, Trigger } from '../state'
 
 const limitSeries = (max: number): Reducer => (s, e) => {
   if (e.type === random.EVENT_RAND_UPDATE) {

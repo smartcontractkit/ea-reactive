@@ -1,6 +1,6 @@
 import { interval, Observable, of } from 'rxjs'
-import { catchError, filter, map, mergeMap, switchMap, takeUntil, takeWhile } from 'rxjs/operators'
-import { eventsSubject, EVENT_START, EVENT_RESTART } from '../runtime'
+import { catchError, filter, map, mergeMap, switchMap, takeUntil } from 'rxjs/operators'
+import { eventsSubject, EVENT_RESTART, EVENT_START } from '../runtime'
 
 const DEFAULT_RAND_INTERVAL = 1000
 
